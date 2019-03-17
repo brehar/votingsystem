@@ -13,7 +13,7 @@ import lombok.Data;
 public @Data class Citizen {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private long id;
+  private Long id;
 
   @Column(name = "citizen_name")
   private String name;
